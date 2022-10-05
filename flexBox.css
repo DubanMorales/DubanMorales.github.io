@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+.container{
+    border: 1px solid rgb(255, 255, 255);
+    display: grid;
+    min-height: 50vh;
+    grid-template-columns: 100px 100px;
+    /*auto auto can be used to create grid template columns*/
+    /*number of columns in your x axsis control the widths*/
+    grid-template-rows: 200px 50px;
+    /*number of rows in your y axsis*/
+    grid-gap: 20px;
+    /*creates a gap inbetween individual items and not the container box*/
+
+}
+/*vvv styles the border vvv*/
+.container>* {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(250, 54, 107);
+    padding: 10px; 
+
+}
+.item{
+    font-size: 1em;
+    /*to control the whole list*/
+    /* em is fractional mesures of unit multiples by number 2 is 2x the amount */
+}
+.item3{
+    font-size: 1em;
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /*calling out an item from the list, also controlling placement of item on grid*/
+}
