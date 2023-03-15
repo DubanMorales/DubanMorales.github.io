@@ -12,17 +12,17 @@
         <a href = 'index.html' > Back to Projects</a>
         </div>
       
-            <div class = "ThreeBsOLO">
-                <img src = '3Bsolo/elevations .png' width = "100%">
-                <img src = '3Bsolo/sections.png' width = "100%">
-                <img src = '3Bsolo/axon 1.png' width = "100%">
-                <img src = '3Bsolo/axon 2.png' width = "100%">
-                <img src = '3Bsolo/TOP VIEW.JPG' width = "100%">
-                <img src = '3Bsolo/CAMERA VIEW 1.JPG' width = "100%">
-                <img src = '3Bsolo/CAMERA VIEW 2.JPG' width = "100%">
+            <div id = "BS3" class = "ThreeBsOLO">
+                <img src = '3Bsolo/elevations .png' width = "85%">
+                <img src = '3Bsolo/sections.png' width = "85%">
+                <img src = '3Bsolo/axon 1.png' width = "85%">
+                <img src = '3Bsolo/axon 2.png' width = "85%">
+                <img src = '3Bsolo/TOP VIEW.JPG' width = "85%">
+                <img src = '3Bsolo/CAMERA VIEW 1.JPG' width = "85%">
+                <img src = '3Bsolo/CAMERA VIEW 2.JPG' width = "85%">
                 <div class = "model" >
-                    <img src = '3Bsolo/download.jpg' width = "70%">
-                    <img src = '3Bsolo/download (2).jpg' width = "70%">
+                    <img src = '3Bsolo/download.jpg' width = "65%">
+                    <img src = '3Bsolo/download (2).jpg' width = "65%">
                 </div>
             </div>
 
@@ -36,74 +36,125 @@
         </div>
 
         <div class=" container2021">
-            <div class= "flexcontainer">
-                <div class = "flex flex1">
+            <div id ="flexScroll" class= "flexcontainer">
+                <div id = "list1" class = "flex flex1">
                     Conceptual Section
-                    <img src = 'images/Conceptual Section of 1246pm crop.PNG' width = "500px">
+                    <img src = 'images/Conceptual Section of 1246pm crop.PNG' width = "550px">
                 </div>
         
-                <div class = "flex flex2">
+                <div id = "list2" class = "flex flex2">
                     <a href = 'Animation.html' > Animation</a>
-                    <img src = 'images/skel + purple rain-Recovered.jpg' width = "500px">
+                    <img src = 'images/skel + purple rain-Recovered.jpg' width = "450px">
                 </div>
         
-                <div class = "flex flex3">
+                <div id = "list3" class = "flex flex3">
                     <img src = 'images/sECTION PLUS SKEL2.png' width = "500px">
                 </div>
         
-                <div class = "flex flex4">
+                <div id = "list4" class = "flex flex4">
                     <img src = 'images/jelly.png' width = "500px">
                 </div>
-                <div class = "flex flex5">
+                <div id = "list5"class = "flex flex5">
                 <img src = 'images/jellly+section+train part 2+ 1of1.png' width = "500px">
                 </div>
-                <div class = "flex flex6"> 
+                <div id = "list6" class = "flex flex6"> 
                 <img src = 'images/1 of 1 inverted.png' width = "500px">
                 </div>
-                <div class = "flex flex7"> 
-                    <img src = 'images/070820212.png' width = "1200px">
+                <div id = "list7" class = "flex flex7"> 
+                    <img src = 'images/070820212.png' width = "900px">
                 </div>
 
-                <div class = "flex flex8"> 
-                     <img src = 'images/maybe.png' width = "1200px">
-                 </div>
-        </div class = "threeBteam">
+                <div id = "list8" class = "flex flex8"> 
+                     <img src = 'images/maybe.png' width = "900px">
+                </div>
 
-            <img src = '3BTEAM/FINAL BOARD 1.png' width = 1000px>
-            <img src = '3BTEAM/FINAL FINAL 3[5639].png' width = 1000px>
+                <div id = "list9" class = "flex flex9"> 
+                    <img src = 'images/Untitled-3.png' width = "900px">
+                </div>
+                <div id = "list10" class = "flex flex10"> 
+                    <img src = 'images/Untitled-222.png' width = "900px">
+                </div>
+                <div id = "list11" class = "flex flex11"> 
+                    <img src = 'images/JASON AND BLENDER.png' width = "900px">
+                </div>
+                
+                <div id = "list12" class = "flex flex12"> 
+                    <img src = 'images/Screenshot 2022-04-18 150525.png' width = "900px">
+                </div>
+
+                <div id = "list13" class = "flex flex13"> 
+                    <img src = 'images/Screenshot 2022-04-18 150727.png' width = "900px">
+                </div>
+                <div id = "list14" class = "flex flex14"> 
+                    <img src = 'images/Screenshot 2022-04-18 150755.png' width = "900px">
+                </div>
+            </div>
+                <script> 
+                    var flexsc = document.getElementById("flexScroll");
+                    flexsc.addEventListener("scroll", function(){
+                      let scroll = this.scrollLeft; 
+                      console.log(scroll)
+                    if(scroll >= 500 && scroll <= 8950){
+                      flexScroll.classList.add("reveal")
+                    } else {
+                      flexScroll.classList.remove("reveal")
+                      
+                    }
+        
+                     })
+                </script>
+        
             
-            <div class = "TextforTeam">
-            Text about projects including key words used and the process of how i got here.
+        <div class = "threeBteam">
+
+            <img src = '3BTEAM/FINAL BOARD 1.png' width = 670px>
+            <img src = '3BTEAM/FINAL FINAL 3[5639].png' width = 670px>
+            
         </div>
 
         <div class=" container2021A">
-            <div class= "flexcontainer2021A">
+            <div id = flexScroll2021A class= "flexcontainer2021A">
                 <div class = "flex flex12">
-                    <img src = '4a images/ELEVATIONS [Converted]_Page_1.png' width = "1000px">
-                    <img src = '4a images/long section 2 [Converted].png' width = "1000px">
+                    <img src = '4a images/ELEVATIONS [Converted]_Page_1.png' width = "800px">
+                    <img src = '4a images/long section 2 [Converted].png' width = "800px">
                 </div>
         
                 <div class = "flex flex22">
-                    <img src = '4a images/long section 1 [Converted].png' width = "1000px">
-                    <img src = '4a images/ELEVATIONS [Converted]_Page_2.png' width = "1000px">
+                    <img src = '4a images/long section 1 [Converted].png' width = "800px">
+                    <img src = '4a images/ELEVATIONS [Converted]_Page_2.png' width = "800px">
                 </div>
         
                 <div class = "flex flex32">
-                    <img src = '4a images/SITE 1202 [Converted].png' width = "1000px">
+                    <img src = '4a images/SITE 1202 [Converted].png' width = "800px">
                 </div>
         
                 <div class = "flex flex42">
-                    <img src = '4a images/3RD AND 4TH2022_Page_1.png' width = "1000px">
+                    <img src = '4a images/3RD AND 4TH2022_Page_1.png' width = "800px">
                 </div>
                 <div class = "flex flex42">
-                    <img src = '4a images/3RD AND 4TH2022_Page_2.png' width = "1000px">
+                    <img src = '4a images/3RD AND 4TH2022_Page_2.png' width = "800px">
                 </div>
+
+                <script> 
+                    var flexsc21 = document.getElementById("flexScroll2021A");
+                    flexsc21.addEventListener("scroll", function(){
+                      let scroll = this.scrollLeft; 
+                      console.log(scroll)
+                    if(scroll >= 300){
+                      flexScroll2021A.classList.add("reveal")
+                    } else {
+                      flexScroll2021A.classList.remove("reveal")
+                      
+                    }
+        
+                     })
+                </script>
 
             </div>
         </div>
-    <div class = "WallSection">
-        <img src = '4a images/WALL SECTION1123 [Converted]a - Copy.png' width = "18%">
-     </div>
+        <div class = "WallSection">
+            <img src = '4a images/WALL SECTION1123 [Converted]a - Copy.png' width = "18%">
+        </div>
 
         <h1>
             
@@ -111,4 +162,6 @@
         <p>
             
         </p>
+
+        
     </body>

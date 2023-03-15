@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang=" en">
 <head>
+    <script src = "test1.js"> </script>
     <title> Duban Morales</title>
     <link href = "gridboxstyle.css" rel="stylesheet" type ="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
     <meta content = "width = device-width, initial-scale = 1" name = "viewport">
-    
+
 </head>
 
 <body>
@@ -23,23 +24,35 @@
         <p> Thank you for your time.</p>
    </div>
 
-    <div class = "container" width = '30%'>
+    <div section id = "ProjectList" class = "container" width = '30%'>
         <div class = "item item1">
             2019
-    
         </div>
 
         <div class = "item item2">
             2020
         </div>
 
-        <div class = "item item3">
+        <div id = "L2021" class = "item item3" >
             <a href = '2021.html' > 2021</a>
         </div>
 
-        <div class = "item item4">
+        <script>
+            L2021.onclick = function(){
+                window.location = "2021.html";
+            }
+        </script>
+
+
+        <div id = "L2022" class = "item item4">
             <a href = '2022.html' > 2022</a>
         </div>
+
+        <script>
+            L2022.onclick = function(){
+                window.location = "2022.html";
+            }
+        </script>
 
     </div>
 </body>
